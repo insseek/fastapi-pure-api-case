@@ -1,11 +1,8 @@
 from fastapi import FastAPI
 
-
 app = FastAPI()
 
 from routers import users, emails, blogs
-
-
 
 
 @app.get("/")
